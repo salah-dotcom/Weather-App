@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="container">
+        <div class="search-area">
+            <i class="ri-map-pin-2-fill"></i>
+            <input type="text" class="input" placeholder="Enter Your Location">
+            <button class="search-btn"><i class="ri-search-line"></i></button>
+        </div>
+        <div class="info">
+            <img src="cloud.png" id="img">
+            <p class="weath"><span class="deg">11</span> <span class="icon"><i class="ri-celsius-fill"></i></span></p>
+            <p class="cityname">France</p>
+            <div class="infos">
+                <div class="humidity">
+                    <div class="hh">
+                        <i class="ri-mist-fill"></i>
+                    <p class="umid">88%</p>
+                    </div>
+                    <div class="hum">
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="humidity">
+                    <div class="hh">
+                        <i class="ri-windy-line"></i>
+                    <p class="speed">0 Km/h</p>
+                    </div>
+                    <div class="hum">
+                        <p>Windy Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
